@@ -8,6 +8,7 @@
   "scripts": {
     "mock": "webpack-dev-server --open --config config/webpack.dev.js",
     "dev": "webpack-dev-server --open --config config/webpack.dev.js --env.API=dev",
+    "start": "npm run dev",
     "build": "webpack --progress --config config/webpack.prod.js",
     "doc": "webpack --progress --config config/webpack.doc.js"
   },
